@@ -8,6 +8,12 @@ The assignment uses MuJoCo, MuJoCo Warp, PyTorch, PPO, GPU-parallel simulation, 
 
 **See the end of this docuiment for the precise deliverables.**
 
+**DEADLINE: October 01 at 11:59pm in Pacific Time.**
+
+Changelog:
+
+- 08/27/2026: inital release.
+
 ---
 
 ## Part 0: Installation and System Validation
@@ -357,7 +363,7 @@ Suggested evaluation metrics:
 
 ## Deliverables
 
-Submit **one PDF report**. You do **not** need to submit source code. Answer the following questions **in order**, using the numbered headings below. Unless otherwise noted, aim for about **one short paragraph per question**.
+Submit **one PDF report** on Brightspace by the deadline (see above and course website). You do **not** need to submit source code. Answer the following questions **in order**, using the numbered headings below. Unless otherwise noted, aim for about **one short paragraph per question**.
 
 ### 1. Baseline
 
