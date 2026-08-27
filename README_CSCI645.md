@@ -284,7 +284,7 @@ This way it makes it easier to test the open-ended extensions, described next.
 
 ## Part 3: Open-Ended Extension
 
-Implement and evaluate TWO principled modifications below. There are four tracks below. PICK TWO OF THEM TO DO.
+Choose TWO of the four tracks below. For each selected track, implement and evaluate one principled modification to the baseline (it does not have to be explicitly listed under the track, as long as it is a reasonable fit). 
 
 ### Track A: Reward Design
 
@@ -342,8 +342,7 @@ Your submission must include:
 2. a clearly described implementation;
 3. a baseline comparison using an equal training budget;
 4. fixed evaluation conditions;
-5. at least one controlled variant;
-6. analysis of both improvements and failure cases.
+5. analysis of both improvements and failure cases.
 
 Changing only the numerical scale of the reward does not count as an improvement.
 
@@ -362,7 +361,7 @@ Suggested evaluation metrics:
 
 ## Deliverables
 
-Submit **one PDF report** on Brightspace by the deadline (see above and course website). You do **not** need to submit source code. Answer the following questions **in order**, using the numbered headings below. Unless otherwise noted, aim for about **one short paragraph per question**.
+Submit **one PDF report** on Brightspace by the deadline (see above and course website). You do **not** need to submit source code. Answer the following questions **in order**, using the numbered headings below. Unless otherwise noted, aim for about **1-2 paragraphs per question**. If you would like to provide additional supporting material, place it in an appendix at the end of the PDF. The appendix is optional and may not be reviewed in detail.
 
 ### 1. Baseline
 
@@ -370,7 +369,7 @@ What command did you use to train the baseline, and what training budget did you
 
 ### 2. Baseline evaluation
 
-Report the required task-level evaluation metrics for the baseline. Include the results in a clear table and briefly explain what they indicate.
+Report the task level evaluation metrics for the baseline. Include the results in a clear table and briefly explain what they indicate.
 
 ### 3. Modification 1
 
@@ -390,7 +389,7 @@ How did Modification 2 perform compared with the baseline? Provide the W&B link,
 
 ### 7. Overall discussion
 
-Which approach worked best, and why? Discuss the main conclusions, limitations, and what you would try next with more time or compute. Aim for **1–2 short paragraphs**.
+Which approach worked best, and why? Discuss the main conclusions, limitations, and what you would try next with more time or compute. Aim for **1-2 short paragraphs**.
 
 Include **one final table or figure** comparing the baseline, Modification 1, and Modification 2 on the same evaluation metrics, along with links to videos of the resulting policies.
 
