@@ -2,9 +2,7 @@
 
 ## Overview
 
-In this assignment, you will train and analyze a reinforcement-learning policy for in-hand cube rotation using a simulated LEAP Hand. You will first install and validate the codebase, reproduce a baseline policy, and then design and evaluate one principled extension.
-
-The assignment uses MuJoCo, MuJoCo Warp, PyTorch, PPO, GPU-parallel simulation, and Weights & Biases.
+In this assignment, you will train and analyze a reinforcement-learning policy for in-hand cube rotation using a simulated LEAP Hand. You will first install and validate the codebase, reproduce a baseline policy, and then evaluate principled extensions.
 
 **See the end of this docuiment for the precise deliverables.**
 
@@ -270,18 +268,17 @@ uv run python scripts/play.py \
 
 ## Part 2: Understand the Baseline
 
-Before modifying the code, describe:
+Before modifying the code, we suggest you look at and understand:
 
 1. the actor observation space;
 2. the privileged critic observation space;
 3. the 16-dimensional action space;
 4. the reward terms;
 5. the termination conditions;
-6. the domain-randomization parameters;
-7. the purpose of the grasp cache;
-8. the reason for using thousands of parallel environments.
+6. the domain randomization parameters;
+7. the purpose of the grasp cache.
 
-Identify the corresponding implementation and configuration files.
+This way it makes it easier to test the open-ended extensions, described next.
 
 ---
 
