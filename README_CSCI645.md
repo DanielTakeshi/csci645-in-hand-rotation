@@ -6,6 +6,8 @@ In this assignment, you will train and analyze a reinforcement-learning policy f
 
 The assignment uses MuJoCo, MuJoCo Warp, PyTorch, PPO, GPU-parallel simulation, and Weights & Biases.
 
+**See the end of this docuiment for the precise deliverables.**
+
 ---
 
 ## Part 0: Installation and System Validation
@@ -138,7 +140,7 @@ uv run wandb status
 
 ## Part 1: Baseline Training
 
-### Small smoke test
+### Initial test
 
 Start with 256 parallel environments:
 
@@ -176,7 +178,7 @@ watch -n 0.5 nvidia-smi
 
 ### Full baseline run
 
-After the smoke test succeeds:
+After the initial test succeeds:
 
 ```bash
 uv run python scripts/train.py \
@@ -279,9 +281,7 @@ Identify the corresponding implementation and configuration files.
 
 ## Part 3: Open-Ended Extension
 
-Implement and evaluate one principled modification.
-
-Choose one track.
+Implement and evaluate TWO principled modifications below. There are four tracks below. PICK TWO OF THEM TO DO.
 
 ### Track A: Reward Design
 
@@ -357,14 +357,36 @@ Suggested evaluation metrics:
 
 ## Deliverables
 
-Submit:
+Submit **one PDF report**. You do **not** need to submit source code. Answer the following questions **in order**, using the numbered headings below. Unless otherwise noted, aim for about **one short paragraph per question**.
 
-- modified source code;
-- a short technical report;
-- W&B links for the baseline and proposed method;
-- exact reproduction commands;
-- baseline and modified-policy videos;
-- a table of task-level evaluation results;
-- an ablation or controlled comparison.
+### 1. Baseline
 
-Your report should explain what you changed, why you expected it to help, whether it worked, and what limitations remain.
+What command did you use to train the baseline, and what training budget did you use? Provide the W&B link for the baseline run (be sure the link is accessible!). Briefly summarize the baseline performance and indicate where we can see the baseline policy video.
+
+### 2. Baseline evaluation
+
+Report the required task-level evaluation metrics for the baseline. Include the results in a clear table and briefly explain what they indicate.
+
+### 3. Modification 1
+
+What was your first principled modification to the baseline, and why did you expect it to help? Clearly describe what you changed.
+
+### 4. Modification 1 results
+
+How did Modification 1 perform compared with the baseline? Provide the W&B link, report the same evaluation metrics, and briefly interpret the result.
+
+### 5. Modification 2
+
+What was your second principled modification to the baseline, and why did you expect it to help? Clearly describe what you changed.
+
+### 6. Modification 2 results
+
+How did Modification 2 perform compared with the baseline? Provide the W&B link, report the same evaluation metrics, and briefly interpret the result.
+
+### 7. Overall discussion
+
+Which approach worked best, and why? Discuss the main conclusions, limitations, and what you would try next with more time or compute. Aim for **1–2 short paragraphs**.
+
+Include **one final table or figure** comparing the baseline, Modification 1, and Modification 2 on the same evaluation metrics, along with links to videos of the resulting policies.
+
+Your grade is based on the quality of experimental methodology and analysis. Negative results are acceptable when the experiments are well designed and clearly analyzed.
