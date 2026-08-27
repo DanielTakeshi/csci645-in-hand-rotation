@@ -4,7 +4,7 @@
 
 In this assignment, you will train and analyze a reinforcement-learning policy for in-hand cube rotation using a simulated LEAP Hand. You will first install and validate the codebase, reproduce a baseline policy, and then evaluate principled extensions.
 
-**See the end of this docuiment for the precise deliverables.**
+**See the end of this document for the precise deliverables.**
 
 **DEADLINE: October 01 at 11:59pm in Pacific Time.**
 
@@ -292,18 +292,16 @@ Examples:
 
 - improve rotation while limiting tilt;
 - improve object retention;
-- encourage useful fingertip contacts;
-- reduce torque or mechanical work;
-- modify a reward curriculum.
+- modify a reward curriculum;
+- encourage different types of rotation behavior.
 
 ### Track B: Observation Design
 
 Examples:
 
-- change observation-history length;
+- change observation history length;
 - remove or add selected proprioceptive signals;
-- introduce observation noise;
-- compare proprioceptive and object-state observations;
+- introduce substantial observation noise;
 - study partial observability.
 
 ### Track C: Domain Randomization and Robustness
@@ -311,10 +309,10 @@ Examples:
 Examples:
 
 - change cube mass, size, or friction ranges;
-- change actuator-delay randomization;
-- change PD-gain randomization;
-- modify grasp-cache initialization;
-- evaluate held-out physical parameters.
+- change actuator delay randomization;
+- change PD gain randomization;
+- modify grasp cache initialization;
+- evaluate untested / new physical parameters.
 
 ### Track D: Policy or Training Configuration
 
@@ -338,12 +336,10 @@ Your submission must include:
 2. a clearly described implementation;
 3. a baseline comparison using an equal training budget;
 4. fixed evaluation conditions;
-5. at least one ablation or controlled variant;
+5. at least one controlled variant;
 6. analysis of both improvements and failure cases.
 
 Changing only the numerical scale of the reward does not count as an improvement.
-
-Use task-level metrics, not just the internally defined training reward.
 
 Suggested evaluation metrics:
 
