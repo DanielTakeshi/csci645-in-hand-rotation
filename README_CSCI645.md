@@ -10,7 +10,7 @@ In this assignment, you will train and analyze a reinforcement-learning policy f
 
 Changelog:
 
-- 08/27/2026: inital release.
+- 08/27/2026: initial release.
 
 ---
 
