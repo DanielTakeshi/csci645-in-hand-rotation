@@ -328,7 +328,13 @@ Simple parameter sweeps without a clear hypothesis are not sufficient.
 
 ---
 
-## Part 4: Experimental Requirements
+## Part 4: BONUS update code to most recent mjlab version
+
+The code right now uses an older version of `mjlab`, so for extra credit, you are welcome to update the code and API to deal with the most recent version as of the release date of this assignment (and then answer the above questions). The bonus will be no more than 20% of the overall grade.
+
+---
+
+## Part 5: Experimental Requirements
 
 Your submission must include:
 
